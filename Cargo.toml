@@ -1,0 +1,10 @@
+[package]
+name = "fragment-shader-widget"
+version = "0.1.0"
+authors = ["Ivan Avdeev <me@provod.works>"]
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12.0", features=[ "advanced" ] }
+bytemuck = "1.15.0"
+glam = { version="0.27.0", features=[ "bytemuck" ] }
